@@ -50,3 +50,11 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
+.greetings {
+  display: flex;
+  border: 2px solid black;
+  width: 30em;
+  margin: 1em;
+  padding: 0.2em;
+}
