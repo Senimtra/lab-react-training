@@ -40,7 +40,6 @@
 #id-card {
   display: flex;
   border: 1px solid black;
-  width: 30em;
   margin: 1em;
   padding: 0.2em;
 }
@@ -49,12 +48,18 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 0.3em;
 }
 
-.greetings {
+#greetings,
+#random {
   display: flex;
-  border: 2px solid black;
-  width: 30em;
+  border: 1px solid black;
   margin: 1em;
   padding: 0.2em;
+}
+
+.iteration-heading {
+  text-align: left;
+  margin-left: 0.5em;
 }
