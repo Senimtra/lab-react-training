@@ -84,7 +84,6 @@
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 0 1em 1em;
   border-radius: 0.5em;
   padding: 1em;
 }
@@ -110,4 +109,10 @@
 #card-digits {
   font-size: 1.8em;
   margin-left: 0.4em;
+}
+
+#like-button {
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  font-size: 1em;
 }
