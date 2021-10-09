@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  // text-align: center;
 }
 
 .App-logo {
@@ -72,4 +76,38 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+#credit-card {
+  width: 20em;
+  height: 11em;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 0 1em 1em;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+#bank-logo {
+  display: flex;
+  justify-content: flex-end;
+  img {
+    height: 1.5em;
+  }
+}
+
+#card-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-dots {
+  font-size: 2em;
+}
+
+#card-digits {
+  font-size: 1.8em;
+  margin-left: 0.4em;
 }
