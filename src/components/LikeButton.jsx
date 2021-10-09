@@ -24,7 +24,6 @@ class LikeButton extends React.Component {
   };
 
   render() {
-    console.log('Rendering components');
     const buttonColors = ['purple', 'blue', 'green', 'yellow', 'orange', 'red'];
     return (
       <button

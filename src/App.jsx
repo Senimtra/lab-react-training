@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
 import IdCard from './components/IdCard';
@@ -8,6 +7,7 @@ import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
 
 function App() {
   return (
@@ -71,6 +71,11 @@ function App() {
       />
       <h1 className="iteration-heading">LikeButton</h1>
       <LikeButton />
+      <h1 className="iteration-heading">ClickablePicture</h1>
+      <ClickablePicture
+        img="/img/persons/maxence.png"
+        imgClicked="/img/persons/maxence-glasses.png"
+      />
     </div>
   );
 }
