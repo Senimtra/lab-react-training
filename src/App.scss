@@ -189,3 +189,14 @@
 #driver-car {
   font-size: 0.75em;
 }
+
+#dice {
+  margin-left: 1em;
+  background-color: rgb(255, 211, 129);
+  border-radius: 1em;
+  width: 8em;
+  height: 8em;
+  img {
+    width: 100%;
+  }
+}
