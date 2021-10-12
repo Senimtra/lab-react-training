@@ -12,6 +12,7 @@ import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
 
 function App() {
   return (
@@ -117,6 +118,8 @@ function App() {
           'https://randomuser.me/api/portraits/men/2.jpg',
         ]}
       />
+      <h1 className="iteration-heading">NumbersTable</h1>
+      <NumbersTable limit={12} />
     </div>
   );
 }

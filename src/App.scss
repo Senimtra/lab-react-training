@@ -212,3 +212,16 @@
     background-color: dimgrey;
   }
 }
+
+#numbers-table {
+  margin-left: 1em;
+}
+
+#number-block {
+  width: 3.5em;
+  height: 3.5em;
+  border: 2px solid black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
