@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-.App {
-  // text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -68,6 +64,11 @@ h1 {
 .iteration-heading-4 {
   text-align: left;
   margin: 0.75em 0.5em 0.4em;
+}
+
+.iteration-heading-5 {
+  text-align: left;
+  margin: 2.8em 0.5em 0.2em;
 }
 
 #id-card,
@@ -303,4 +304,44 @@ label {
 
 #signup-message {
   margin-top: 0.7em;
+}
+
+#rgb-color-picker {
+  margin-left: 1em;
+}
+
+#rgb-color-picker {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-box {
+  border: 2px solid black;
+  width: 3em;
+  height: 3em;
+}
+
+#rgb-output {
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+}
+
+#color-box-rgb {
+  margin: 0;
+}
+
+.color-container {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  input {
+    margin-left: 0.4em;
+    width: 3.5em;
+  }
+}
+
+#color-code,
+.color-input {
+  margin-left: 0.5em;
 }
